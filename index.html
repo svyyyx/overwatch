@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+ 	<!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
+ 	<link rel="icon" type="image/png" href="favicon.png" />
+	<title>Overwatch</title>
+	<style type="text/css">
+		@font-face {
+   		 font-family: Overwatch; /* Имя шрифта */
+   		 src: url(10318.ttf); /* Путь к файлу со шрифтом */
+  	 	}
+  	 	.d-flex {
+  	 		display: flex;
+  	 	}
+  	 	.gl {
+  	 		 background-repeat: no-repeat;
+  	 		 background-attachment: fixed;
+  	 	}
+  	 	.bg-s {
+  	 		background-size: 100% 100%;
+  	 	}
+
+		.head {
+			height: 100px;
+			display: flex;
+		}
+		.boxwithimg {
+			height: 500px;
+
+		}
+		.width-500 {
+			width: 500px;
+		}
+		.width-200 {
+			width: 200px;
+		}
+		.width-400 {
+			width: 400px;
+		}
+		.width-1200px {
+			width: 1220px
+		}
+		.width-60 {
+			width: 60px;
+		}
+		.width-250 {
+			width: 250px;
+		}
+		.img-s {
+			background-size: 100% 100%;
+		}
+		.mx-auto {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.ramka {
+			background-color: #212529;
+			color: black;
+			height: 84px;
+			width: 76px;
+			transition: 300ms;
+
+
+		}
+		.ramka:hover {
+			width: 86px;
+			height: 94px;
+			background-color: #ff8900;
+			color: white;
+		}
+
+		.bg-orange {
+			background-color: #ff9c00;
+		}
+		.bg-light {
+			background-color: #f2f1ed;
+		}
+		.tx-head {
+			color:#4b535d
+
+		}
+		.tx-white {
+			color: white
+		}
+
+		.br-10 {
+			border-radius: 10px
+		}
+		.opacity {
+			opacity: 70%
+		}
+		.pt-200 {
+			padding-top: 200px
+		}
+		.ff-ow {
+			font-family: Overwatch;
+			text-decoration: none;
+		}
+		.text-center {
+			text-align: center;
+
+		}
+		.fs-400 {
+			font-size: 400%
+		}
+		.fs-300 {
+			font-size: 300%
+		}
+		.fs-150 {
+			font-size: 150%
+		}
+		.fs-200 {
+			font-size: 200%
+		}
+		.shadow {
+			transition: 1s;
+			background: rgba(255, 255, 255, 0.3);
+		}
+		.shadow:hover {
+    	box-shadow: 0 0 60px rgba(255,100,0,1); /* Параметры тени */
+    	color:#ff9c00;
+
+   		}
+   		.shadow2 {
+			transition: 1s;
+			
+		}
+		.shadow2:hover {
+    	color:#ff9c00;
+
+   		}
+   		.buttons {
+   			padding-top: 10px;
+   		}
+   		.main {
+   			transition: 0.5s;
+   			}
+   		.main:hover {
+   			box-shadow: 0px 5px 0px -2px rgba(255,100,0,1);
+   		}
+   		.fort {
+   			color:#4b535d;
+   			transition: 0.5s;
+   		}
+   		.fort:hover {
+   			color: #FF6400;
+   		}
+   		.rad{
+   			transition: 2s;
+   		}
+   		.rad:hover {
+   			transform: translateY(-20px);
+   			
+   		}
+   		
+   		.blac {
+   			transition: 1s;
+   		}
+   		.blac:hover {
+   			color: #f2f1ed;
+   		}
+   		.shadowpng {
+   			transition: 0.5s
+   		}
+   		.shadowpng:hover {
+    -webkit-filter: drop-shadow(0 0 3px rgba(255,100,0,1));
+    filter: drop-shadow(0 0 3px rgba(255,100,0,1));
+  		}
+  		.ml-50 {
+  			margin-left: 50px;
+  		}
+  		.cl-black {
+  			color: black;
+  		}
+  		.width-600 {
+  			width: 600px;
+  		}
+  		.pt-60 {
+  			padding-top: 60px;
+  		}
+  		.br-40 {
+  			border-radius: 40px;
+  		}
+
+		
+	</style>
+</head>
+<body>
+	<div style="height: 2100px;background-image: url(bg3.png);margin: -10px" class="bg-s gl">
+		<nav style="height: 60px;" class="bg-light head">
+
+			<div style="height: 60px;" class="width-1200px mx-auto d-flex">
+				<div style="height: 60px;" class=" width-500 d-flex">
+
+					<div style="height: 50px;width: 250px;" class="text-center buttons main">
+						<a href="https://playoverwatch.com/ru-ru/news" class="ff-ow fs-200 fort">Новости</a>
+					</div>
+
+					<div style="height: 50px;width: 250px;" class="text-center buttons main">
+						<a href="https://playoverwatch.com/ru-ru/events/halloween-terror" class="ff-ow fs-200 fort">События</a>
+					</div>
+				</div>
+
+				<div style="height: 60px;" class=" width-200 main">
+					<div style="height: 60px;background-image:url(favicon.png); " class="bg-s mx-auto width-60 shadowpng"></div>
+				</div>
+
+				<div style="height: 60px;" class=" width-500 d-flex">
+					<div style="height: 50px;width: 250px;" class="text-center buttons main">
+						<a href="https://playoverwatch.com/ru-ru/media" class="ff-ow fs-200 fort">Материалы</a>
+					</div>
+
+					<div style="height: 50px;width: 250px;" class="text-center buttons main">
+						<a href="https://playoverwatch.com/ru-ru/esports" style="" class="ff-ow fs-200 fort">Киберспорт</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div style="height: 2000px;background-image: url(carbon2.jpg);" class="mx-auto width-1200px">
+			<div style="height: 450px;background-image: url(overwatch.jpg); background-size: 100% 100%;background-repeat: no-repeat;fill: black" class="pt-200 width-1200px">
+				<div style="height: 200px;width: 624px;" class="mx-auto bg-light br-10 shadow">
+					<h1 style="" class="ff-ow text-center fs-400 ">
+						Что это такое?
+					</h1>
+					<p class="text-center ff-ow fs-150">Overwatch - это командный шутер с разнообразным составом героев. Эта игра была создана в 2016 году компанием Blizzard. </p>
+				</div>
+			</div>
+
+
+			
+			<div style="width: 1220px;height: 540px;display: flex;flex-flow: wrap;justify-content: center;box-sizing: border-box;padding-top: 50px;backface-visibility: hidden;background-image: url(candy);background-size: 100% 150%" class="shadow2">
+				<div style="height: 60px;" class="ff-ow width-1200px text-center fs-300">Герои</div>
+			<a href="https://playoverwatch.com/ru-ru/heroes/dva/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(dva.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">D.va</p>
+			</a>	
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/ana/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(ana.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Ана</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/mercy/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(Mercy.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Ангел</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/bastion/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(bastion.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Бастион</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/baptiste/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(batist.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Батист</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/brigitte/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(brigitte.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Бригитта</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/genji/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(genji.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Гендзи</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/zenyatta/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(icon-portrait.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Дзенъятта</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/reaper/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(reaper.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Жнец</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/zarya/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(zarya.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Заря</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/junkrat/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(Junkrat.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Крысавчик</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/doomfist/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(doomfist.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Кулак Смерти</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/lucio/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(lucio.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Лусио</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/mccree/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(mccree.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Маккри</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/moira/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(moira.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Мойра</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/mei/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(mei.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Мэй</p>
+			</a>
+			
+			<a href="https://playoverwatch.com/ru-ru/heroes/orisa/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(orisa.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Ориса</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/reinhardt/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(reinhardt.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Райнхардт</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/widowmaker/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(widowmaker.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Роковая вдова</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/sigma/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(sigma.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Сигма</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/symmetra/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(symmetra.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Симметра</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/soldier-76/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(soldier-76.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Солдат-76</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/sombra/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(sombra.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Сомбра</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/wrecking-ball/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(wrecking-ball.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Таран</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/torbjorn/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(torbjorn.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Торбьорн</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/tracer/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(tracer3.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Трейсер</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/roadhog/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(roadhog.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Турбосвин</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/winston/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(wintston.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Уинстон</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/pharah/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(pharah.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Фарра</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/hanzo/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(hanzo.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Хандзо</p>
+			</a>
+
+			<a href="https://playoverwatch.com/ru-ru/heroes/ashe/" style="margin: 2.4px 8px;height: 105px;width: 76px;text-decoration: none;" class="">
+				<span style="transform: skew(25rad);display: inline-block;border-radius:10px;border: 3px solid white;overflow: hidden;position: relative;" class="ramka">
+					<span style="background-image: url(ashe.png);display: block;width: 100%;height: 100%;background-size: auto 100%;background-position: 50% 50%;background-repeat: no-repeat;"></span>
+				</span>
+				<p style="margin: auto;font-family: Arial;font-style: normal;color: #212529;font-size: 90%;font-weight: 400px;text-align: center;">Эш</p>
+			</a>
+		</div>
+		
+		<div style="height: 610px;background-image: url(desktop.jpg);background-size: 100% 150%;padding-top: 50px" class="width-1200px shadow2">
+			<div style="height: 60px;" class="ff-ow width-1200px text-center fs-300">Теперь и на Nintendo</div>
+			<div style="height: 600px" class="width-1200px d-flex">
+				<div style="height: 550px;width: 550px;padding-top: 50px">
+				<h1 style="" class="ff-ow text-center fs-400">Играй где и когда угодно</h1>
+				<p style="width: 450px;" class="ff-ow text-center fs-200 mx-auto">Overwatch теперь и на Nintendo Switch, попадайте прямо в цель с помощью гироскопа Nintendo Switch и направляйте персонажа в бою мини-джойстиками</p>
+				</div>
+				<div style="width: 570px;height: 540px;padding-top: 160px">
+				<div style="width: 650px;height: 245px;background-image: url(nintendo.png);padding-top:35px" class="mx-auto bg-s rad">
+					<div style="background-color: gray;width: 375px;height: 220px;" class="mx-auto">
+						<iframe width="375" height="220" src="https://www.youtube.com/embed/OZno7Iwzu30" frameborder="0"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+				</div>	
+			</div>
+			</div>
+			<div style="height: 150px;width: 1220px;background:rgba(0, 0, 0, 0.7);" class="">
+				<div style="height: 150px;width: 1220px;display: flex;flex-flow: wrap;justify-content: center;" class="mx-auto shadowpng">
+					<a href="https://www.instagram.com/svyyyx/" style="background-image: url(instagram.png);background-size: 100% 100%;height: 60px;width: 60px;margin: auto;"></a>
+
+					<a href="https://steamcommunity.com/id/svyyyx/" style="background-image: url(steam.png);background-size: 90% 90%;height: 60px;width: 60px;margin: auto;background-repeat: no-repeat;"></a>
+					<a href="https://discord.gg/z2zyzM" style="background-image: url(discord.png);background-size: 110% 110%;height: 60px;width: 60px;margin: auto;"></a>
+					
+				</div>
+		</div>
+	</div>
+</html>
